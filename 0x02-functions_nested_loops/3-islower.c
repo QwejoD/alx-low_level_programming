@@ -1,18 +1,35 @@
 #include "main.h"
+
 /**c >= 
- * _islower - main function
  *
- * @c: character to compare
+ *  * _islower - main function
  *
- * Return: 1 if true, 0 if false
+ *   *
  *
-*/
+ *    * @c: character to compare
+ *
+ *     *
+ *
+ *      * Return: 1 if true, 0 if false
+ *
+ *       *
+ *
+ *        */
+
+
 
 int _islower(int c)
+
 {
-	if (c >= 'a' && c <= 'z')
-	{
-		return (1);
-	}
-	return (0);
+
+		if (c >= 'a' && c <= 'z')
+
+				{
+
+							return (1);
+
+								}
+
+			return (0);
+
 }
