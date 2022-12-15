@@ -1,5 +1,5 @@
 #include "main.h"
-/**c >= 
+/**
  * _islower - main function
  *
  * @c: character to compare
