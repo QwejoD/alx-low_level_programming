@@ -1,18 +1,26 @@
 #include "main.h"
+
 /**
- * _isalpha - main function
+ * test_isalpha - Test the _isalpha function
  *
- * @c: character to compare
- *
- * Return: 1 if true, 0 if false
- *
+ * @n: Number to pass to _isalpha function
  */
-
-int _isalpha(int c)
+void test_isalpha(int n)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-	{
-		return (1);
-	}
-	return (0);
+	int r;
 
+	r = _isalpha(n);
+	_putchar(r + '0');
+	_putchar('\n');
+}
+
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	test_isalpha('H');
+	return (0);
+}
