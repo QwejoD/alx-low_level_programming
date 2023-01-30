@@ -1,1 +1,1 @@
-Readme for 0x0E. C - Structures, typedef
+Readme for alx low level prlogramming
