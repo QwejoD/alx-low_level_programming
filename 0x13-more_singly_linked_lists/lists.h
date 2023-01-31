@@ -45,6 +45,8 @@ listint_t *reverse_listint(listint_t **head);
 /*prototype function that reverses a listint_t linked list.*/
 size_t print_listint_safe(const listint_t *head);
 /*prototype function that reverses a listint_t linked list.*/
+size_t free_listint_safe(listint_t **h);
+/*prototype function that frees a listint_t list.*/
 
 
 
