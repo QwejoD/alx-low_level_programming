@@ -41,5 +41,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
 /*prototype function that inserts a new node at a given position.*/
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
 /*prototy pefunction that deletes the node at index index of a listint_t.*/
+listint_t *reverse_listint(listint_t **head);
+/*prototy pefunction that reverses a listint_t linked list.*/
 
 #endif /* LISTS_H */
